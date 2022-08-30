@@ -145,7 +145,6 @@ params:
   categories:
     - name: Core Systems
     - name: Supporting Systems
-      closed: true
 
 
   # These are your systems. Change them to
