@@ -143,9 +143,9 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: Uncategorized
+    - name: Core Systems
+    - name: Supporting Systems
       closed: true
-      untitled: true
 
 
   # These are your systems. Change them to
@@ -158,27 +158,27 @@ params:
   systems:
     - name: API
       description: Endpoints for desktop and web client
-      category: Uncategorized
+      category: Core Systems
     - name: Web App
       description: Cacher web client at app.cacher.io
-      category: Uncategorized
+      category: Core Systems
       link: https://app.cacher.io
     - name: Snippet Pages
       description: Public-facing pages for snippets at snippets.cacher.io
-      category: Uncategorized
+      category: Core Systems
       link: https://snippets.cacher.io
     - name: Update Servers
       description: Enables automatic upgrades for macOS and Windows clients
-      category: Uncategorized
+      category: Supporting Systems
     - name: Embed Service
       description: Serves embeddable snippet controls
-      category: Uncategorized
+      category: Supporting Systems
     - name: Jupyter Service
       description: Renders Jupyter notebooks
-      category: Uncategorized
+      category: Supporting Systems
     - name: Email
       description: Handles subscriptions to email newsletters
-      category: Uncategorized
+      category: Supporting Systems
 
   # What date format to use?
   #
